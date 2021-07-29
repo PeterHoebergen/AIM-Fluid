@@ -1,0 +1,24 @@
+{
+  "id": "746a8586-465b-43ec-a891-027acafa2a7e",
+  "name": "AIMFluid",
+  "publisher": "AIM Fluid",
+  "version": "1.0.0.0",
+  "runtime": "7.1",
+  "showMyCode": true,
+  "target": "Cloud",
+  "platform": "18.0.24800.24858",
+  "dependencies": [
+    {
+      "id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "name": "Base Application",
+      "version": "18.1.24822.26071",
+      "publisher": "Microsoft"
+    }
+  ],
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 99000
+    }
+  ]
+}
