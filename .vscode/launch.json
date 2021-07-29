@@ -14,7 +14,7 @@
             "enableLongRunningSqlStatements": true,
             "enableSqlInformationDebugger": true,
             "tenant": "aimfluid.onmicrosoft.com"
-        }
+        },
         {
             "name": "Copy Production Sandbox",
             "request": "launch",
@@ -29,6 +29,5 @@
             "enableSqlInformationDebugger": true,
             "tenant": "aimfluid.onmicrosoft.com"
         }
-
     ]
 }
