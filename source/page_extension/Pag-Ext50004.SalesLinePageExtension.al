@@ -4,16 +4,23 @@ pageextension 50004 "Sales Line Page Extension" extends "Sales Order Subform"
     {
         modify(Description)
         {
-        Style = AttentionAccent;
-        StyleExpr = true;
+            Style = Unfavorable;
+            StyleExpr = SetColor;
+        }
+        modify("Unit Price")
+        {
+            Style = Unfavorable;
+            StyleExpr = SetColor;
         }
     }
+    var
+        SetColor: Boolean;
+
     trigger OnAfterGetRecord()
     var
         Cust: Record Customer;
         Margin: Decimal;
         SalesSetup: Record "Sales & Receivables Setup";
-        SetColor: Boolean;
     begin
         IF Cust.GET("Sell-to Customer No.") THEN;
 
