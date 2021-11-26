@@ -18,6 +18,8 @@ pageextension 50004 "Sales Line Page Extension" extends "Sales Order Subform"
            {
                Caption = 'Margin Exceeded';
                ApplicationArea = all;
+               Editable = false;
+               
            }
         }
     }
